@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #383838;
+    margin-bottom: 30px;
+}
+.title span{
+    color: #7857FE;
+}
+
+/* =====================================
+        Nav Part start
+======================================== */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background: transparent;
+    -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%), 0 3px 1px -2px rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 0%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%), 0 3px 1px -2px rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 0%);
+}
+nav ul li a{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+}
+/* =====================================
+        Nav Part end
+======================================== */
+/* =====================================
+        Banner Part start
+======================================== */
+#banner-part {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 0px 0px 150px 0px;
+    -webkit-border-radius: 0px 0px 150px 0px;
+    -moz-border-radius: 0px 0px 150px 0px;
+    -ms-border-radius: 0px 0px 150px 0px;
+    -o-border-radius: 0px 0px 150px 0px;
+}
+
+#banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(120, 87, 254);
+    background: linear-gradient(0deg, rgb(120 87 254 / 60%) 0%, rgb(120 87 254 / 90%) 80%);
+    padding: 100px 0;
+    border-radius: 0px 0px 150px 0px;
+    -webkit-border-radius: 0px 0px 150px 0px;
+    -moz-border-radius: 0px 0px 150px 0px;
+    -ms-border-radius: 0px 0px 150px 0px;
+    -o-border-radius: 0px 0px 150px 0px;
+}
+
+#banner-part .overlay h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    margin-top: 100px;
+}
+
+#banner-part .overlay p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+   margin-top: 20px;
+    width: 405px;
+    text-align: justify
+}
+
+#banner-part .overlay .reg {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7857FE;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+#banner-part .overlay .vdo {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+#banner-part .overlay .vdo i {
+    font-size: 18px;
+    color: #7857FE;
+}
+#banner-part .overlay .img{
+    text-align: center;
+}
+/* =====================================
+        Banner Part end
+======================================== */
+/* =====================================
+        Feature Part start
+======================================== */
+#feature{
+    margin: 80px 0;
+}
+#feature .card{
+    text-align: center;
+    padding: 15px 10px;
+}
+#feature .card .round{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #7857FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#feature .card .round i{
+    font-size: 16px;
+    color: #7857FE;
+}
+#feature .card h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #383838;
+    margin: 15px 0;
+}
+#feature .card p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+}
+/* =====================================
+        Feature Part end
+======================================== */
