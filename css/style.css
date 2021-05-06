@@ -189,7 +189,7 @@ nav ul li a{
 ======================================== */
 #fact{
     background: #F8F8F8;
-    padding-top: 30px;
+    padding: 30px 0;
 }
 #fact .img{
     text-align: center;
@@ -239,4 +239,173 @@ nav ul li a{
 }
 /* =====================================
         Fects Part end
+======================================== */
+/* =====================================
+        Screenshorts Part start
+======================================== */
+#screenshot{
+    padding: 80px 0;
+    position: relative;
+}
+#screenshot .screen-slider .screen{
+    margin: 0 15px;
+}
+#screenshot .screen-slider .screen img{
+    width: 100%;
+}
+#screenshot .screen-slider .slick-dots{
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+#screenshot .screen-slider .slick-dots .slick-active button{
+    background: #7857FE;
+}
+#screenshot .screen-slider ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+#screenshot .screen-slider ul li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #7857FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* =====================================
+        Screenshorts Part end
+======================================== */
+/* =====================================
+        App Part start
+======================================== */
+#app-part{
+    background: url(../images/app-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+#app-part .title h3{
+    color: #fff;
+}
+#app-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(120, 87, 254, 0.6);
+    padding: 30px 0;
+}
+#app-part .card{
+    text-align: center;
+    padding: 30px 10px;
+    background: #fff;
+}
+#app-part .card .round i{
+    font-size: 16px;
+    color: #7857FE;
+}
+#app-part .card h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #383838;
+    margin: 15px 0;
+}
+#app-part .card .icon i{
+    font-size: 40px;
+    color: #7857FE;
+}
+#app-part .card p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+}
+#app-part .card .button a{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #7857FE;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+/* =====================================
+        App Part end
+======================================== */
+/* =====================================
+        Works Part start
+======================================== */
+#work-part{
+    padding: 30px 0;
+}
+#work-part .work-items{
+    position: relative;
+}
+#work-part .work-items::after{
+    position: absolute;
+    content: '';
+    top: 17px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 711px;
+    height: 1px;
+    background: #7857FE;
+    z-index: -1;
+}
+#work-part .item{
+    text-align: center;
+}
+#work-part .item .round{
+    width: 35px;
+    height: 35px;
+    background: #7857FE;
+    margin: 0 auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#work-part .item .round h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+#work-part .item h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #383838;
+    margin: 15px 0;
+}
+#work-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    width: 230px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+/* =====================================
+        Works Part end
 ======================================== */
