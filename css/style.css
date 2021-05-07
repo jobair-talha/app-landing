@@ -23,17 +23,24 @@ p {
     margin: 0;
     padding: 0;
 }
-.title{
+
+.row{
+    margin-bottom: 0;
+}
+.title {
     text-align: center;
 }
-.title h3{
+
+.title h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 22px;
     color: #383838;
     margin-bottom: 30px;
 }
-.title span{
+
+
+.title span {
     color: #7857FE;
 }
 
@@ -50,10 +57,12 @@ nav {
     -webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%), 0 3px 1px -2px rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 0%);
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 0%), 0 3px 1px -2px rgb(0 0 0 / 0%), 0 1px 5px 0 rgb(0 0 0 / 0%);
 }
-nav ul li a{
+
+nav ul li a {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
 }
+
 /* =====================================
         Nav Part end
 ======================================== */
@@ -63,11 +72,11 @@ nav ul li a{
 #banner-part {
     background: url(../images/banner.jpg) no-repeat center;
     background-size: cover;
-    border-radius: 0px 0px 150px 0px;
-    -webkit-border-radius: 0px 0px 150px 0px;
-    -moz-border-radius: 0px 0px 150px 0px;
-    -ms-border-radius: 0px 0px 150px 0px;
-    -o-border-radius: 0px 0px 150px 0px;
+    border-radius: 0px 0px 100px 0px;
+    -webkit-border-radius: 0px 0px 100px 0px;
+    -moz-border-radius: 0px 0px 100px 0px;
+    -ms-border-radius: 0px 0px 100px 0px;
+    -o-border-radius: 0px 0px 100px 0px;
 }
 
 #banner-part .overlay {
@@ -79,7 +88,7 @@ nav ul li a{
     background: linear-gradient(0deg, rgb(120 87 254 / 60%) 0%, rgb(120 87 254 / 90%) 80%);
     padding: 100px 0;
     border-radius: 0px 0px 150px 0px;
-    -webkit-border-radius: 0px 0px 150px 0px;
+    -webkit-border-radius: 0px 0px 100px 0px;
     -moz-border-radius: 0px 0px 150px 0px;
     -ms-border-radius: 0px 0px 150px 0px;
     -o-border-radius: 0px 0px 150px 0px;
@@ -98,7 +107,7 @@ nav ul li a{
     font-weight: 400;
     font-size: 14px;
     color: #fff;
-   margin-top: 20px;
+    margin-top: 20px;
     width: 405px;
     text-align: justify
 }
@@ -118,6 +127,7 @@ nav ul li a{
     margin-right: 20px;
     margin-top: 30px;
 }
+
 #banner-part .overlay .vdo {
     width: 50px;
     height: 50px;
@@ -131,27 +141,32 @@ nav ul li a{
     -o-border-radius: 50%;
     display: inline-block;
 }
+
 #banner-part .overlay .vdo i {
     font-size: 18px;
     color: #7857FE;
 }
-#banner-part .overlay .img{
+
+#banner-part .overlay .img {
     text-align: center;
 }
+
 /* =====================================
         Banner Part end
 ======================================== */
 /* =====================================
         Feature Part start
 ======================================== */
-#feature{
+#feature {
     margin: 80px 0;
 }
-#feature .card{
+
+#feature .card {
     text-align: center;
     padding: 15px 10px;
 }
-#feature .card .round{
+
+#feature .card .round {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -164,112 +179,134 @@ nav ul li a{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-#feature .card .round i{
+
+#feature .card .round i {
     font-size: 16px;
     color: #7857FE;
 }
-#feature .card h3{
+
+#feature .card h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
     color: #383838;
     margin: 15px 0;
 }
-#feature .card p{
+
+#feature .card p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #222222;
 }
+
 /* =====================================
         Feature Part end
 ======================================== */
 /* =====================================
         Fects Part start
 ======================================== */
-#fact{
+#fact {
     background: #F8F8F8;
     padding: 30px 0;
 }
-#fact .img{
+
+#fact .img {
     text-align: center;
 }
-#fact .img img{
+
+#fact .img img {
     width: auto;
     height: 450px;
 }
-#fact .title{
+
+#fact .title {
     text-align: left;
 }
-#fact p{
+
+#fact p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #222222;
 }
-#fact .count{
+
+#fact .count {
     text-align: center;
     margin-top: 30px;
 }
-#fact .count .item{
+
+#fact .count .item {
     padding: 30px 0;
     background: #E91E63;
     margin-bottom: 30px;
 }
-#fact .count .snd{
+
+#fact .count .snd {
     background: #F4B00F;
 }
-#fact .count .thrd{
+
+#fact .count .thrd {
     background: #0AD59D;
 }
-#fact .count .fth{
+
+#fact .count .fth {
     background: #7857FE;
 }
-#fact .count .item h3{
+
+#fact .count .item h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 28px;
     color: #fff;
 }
-#fact .count .item p{
+
+#fact .count .item p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #fff;
 }
+
 /* =====================================
         Fects Part end
 ======================================== */
 /* =====================================
         Screenshorts Part start
 ======================================== */
-#screenshot{
+#screenshot {
     padding: 80px 0;
     position: relative;
 }
-#screenshot .screen-slider .screen{
+
+#screenshot .screen-slider .screen {
     margin: 0 15px;
 }
-#screenshot .screen-slider .screen img{
+
+#screenshot .screen-slider .screen img {
     width: 100%;
 }
-#screenshot .screen-slider .slick-dots{
+
+#screenshot .screen-slider .slick-dots {
     position: absolute;
     bottom: -60px;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
-#screenshot .screen-slider .slick-dots .slick-active button{
+
+#screenshot .screen-slider .slick-dots .slick-active button {
     background: #7857FE;
 }
+
 #screenshot .screen-slider ul li {
     display: inline-block;
     margin-right: 10px;
 }
+
 #screenshot .screen-slider ul li button {
     font-size: 0;
     width: 15px;
@@ -281,52 +318,61 @@ nav ul li a{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+
 /* =====================================
         Screenshorts Part end
 ======================================== */
 /* =====================================
         App Part start
 ======================================== */
-#app-part{
+#app-part {
     background: url(../images/app-bg.jpg) no-repeat center;
     background-size: cover;
 }
-#app-part .title h3{
+
+#app-part .title h3 {
     color: #fff;
 }
-#app-part .overlay{
+
+#app-part .overlay {
     width: 100%;
     height: 100%;
     background: rgba(120, 87, 254, 0.6);
     padding: 30px 0;
 }
-#app-part .card{
+
+#app-part .card {
     text-align: center;
     padding: 30px 10px;
     background: #fff;
 }
-#app-part .card .round i{
+
+#app-part .card .round i {
     font-size: 16px;
     color: #7857FE;
 }
-#app-part .card h3{
+
+#app-part .card h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
     color: #383838;
     margin: 15px 0;
 }
-#app-part .card .icon i{
+
+#app-part .card .icon i {
     font-size: 40px;
     color: #7857FE;
 }
-#app-part .card p{
+
+#app-part .card p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #222222;
 }
-#app-part .card .button a{
+
+#app-part .card .button a {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
@@ -340,37 +386,42 @@ nav ul li a{
     padding: 10px 15px;
     margin-top: 20px;
 }
+
 /* =====================================
         App Part end
 ======================================== */
 /* =====================================
         Works Part start
 ======================================== */
-#work-part{
+#work-part {
     padding: 30px 0;
 }
-#work-part .work-items{
+
+#work-part .work-items {
     position: relative;
 }
-#work-part .work-items::after{
+
+#work-part .work-items::after {
     position: absolute;
     content: '';
     top: 17px;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     width: 711px;
     height: 1px;
     background: #7857FE;
     z-index: -1;
 }
-#work-part .item{
+
+#work-part .item {
     text-align: center;
 }
-#work-part .item .round{
+
+#work-part .item .round {
     width: 35px;
     height: 35px;
     background: #7857FE;
@@ -384,19 +435,22 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
-#work-part .item .round h3{
+
+#work-part .item .round h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
     color: #fff;
 }
-#work-part .item h3{
+
+#work-part .item h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
     color: #383838;
     margin: 15px 0;
 }
+
 #work-part .item p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -406,23 +460,26 @@ nav ul li a{
     margin: 0 auto;
     margin-bottom: 15px;
 }
+
 /* =====================================
         Works Part end
 ======================================== */
 /* =====================================
         Clint Part start
 ======================================== */
-#clint-part{
+#clint-part {
     padding: 30px 0;
     background: #F8F8F8;
 }
-#clint-part .card{
+
+#clint-part .card {
     background: #F8F8F8;
     padding: 30px 10px;
     text-align: center;
     margin: 1px 15px;
 }
-#clint-part .card .img{
+
+#clint-part .card .img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -430,13 +487,14 @@ nav ul li a{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin: 0  auto;
+    margin: 0 auto;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#clint-part .card .img img{
+
+#clint-part .card .img img {
     width: 60px;
     height: 60px;
     border: 2px solid #7857FE;
@@ -446,14 +504,15 @@ nav ul li a{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-#clint-part .card .img .img-overlay{
+
+#clint-part .card .img .img-overlay {
     position: absolute;
     top: 50%;
     right: 0;
     width: 18px;
     height: 18px;
     background: #7857FE;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -462,16 +521,18 @@ nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-transform: translate(50%,-50%);
-    -moz-transform: translate(50%,-50%);
-    -ms-transform: translate(50%,-50%);
-    -o-transform: translate(50%,-50%);
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
 }
-#clint-part .card .img .img-overlay i{
+
+#clint-part .card .img .img-overlay i {
     font-size: 12px;
     color: #fff;
 }
-#clint-part .card  p{
+
+#clint-part .card p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -481,13 +542,15 @@ nav ul li a{
     margin-top: 20px;
     margin-bottom: 15px;
 }
-#clint-part .card h3{
+
+#clint-part .card h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 18px;
     color: #383838;
 }
-#clint-part .card h4{
+
+#clint-part .card h4 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 14px;
@@ -495,18 +558,22 @@ nav ul li a{
     margin-bottom: 15px;
     margin-top: 10px;
 }
-#clint-part .card .icon i{
+
+#clint-part .card .icon i {
     color: #ffcf42;
 }
-#clint-part .client-slider ul{
+
+#clint-part .client-slider ul {
     text-align: center;
     margin-top: 15px;
 }
-#clint-part .client-slider ul li{
+
+#clint-part .client-slider ul li {
     display: inline-block;
     margin-right: 10px;
 }
-#clint-part .client-slider ul li button{
+
+#clint-part .client-slider ul li button {
     font-size: 0;
     width: 15px;
     height: 15px;
@@ -517,43 +584,51 @@ nav ul li a{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-#clint-part .client-slider .slick-dots .slick-active button{
+
+#clint-part .client-slider .slick-dots .slick-active button {
     background: #7857FE;
 }
+
 /* =====================================
         Clint Part end
 ======================================== */
 /* =====================================
         Price Part start
 ======================================== */
-#price{
+#price {
     padding: 30px 0;
 }
-#price .card{
+
+#price .card {
     text-align: center;
     padding: 30px 10px;
 }
-#price .card h3{
+
+#price .card h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
     color: #383838;
     margin-bottom: 20px;
 }
-#price .card h4{
+
+#price .card h4 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 14px;
     color: #7a7a7a;
 }
-#price .card span{
+
+#price .card span {
     color: #7857FE;
     font-size: 40px;
 }
-#price .card ul{
-  text-align: left;
-  margin: 15px 0;
+
+#price .card ul {
+    text-align: left;
+    margin: 15px 0;
 }
+
 #price .card ul li {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -561,13 +636,14 @@ nav ul li a{
     color: #222222;
     margin-bottom: 10px;
 }
-#price .card ul li i{
+
+#price .card ul li i {
     font-size: 14px;
     color: #7857FE;
     margin-right: 10px;
 }
 
-#price .card  a{
+#price .card a {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 16px;
@@ -580,23 +656,27 @@ nav ul li a{
     -o-border-radius: 27px;
     padding: 10px 15px;
 }
+
 /* =====================================
         Price Part end
 ======================================== */
 /* =====================================
         Team Part start
 ======================================== */
-#team{
+#team {
     padding: 30px 0;
     background: #F8F8F8;
 }
-#team .card{
+
+#team .card {
     padding: 15px;
     margin: 1px 15px;
 }
-#team .card .img img{
+
+#team .card .img img {
     width: 100%;
 }
+
 #team .card h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
@@ -604,60 +684,71 @@ nav ul li a{
     color: #383838;
     margin-top: 10px;
 }
-#team .card h4{
+
+#team .card h4 {
     font-family: 'Libre Baskerville', serif;
-        font-weight: 700;
-        font-size: 14px;
-        color: #7a7a7a;
-        margin-bottom: 15px;
-        margin-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
-#team ul{
+
+#team ul {
     text-align: center;
     margin-top: 15px;
 }
-#team ul li{
+
+#team ul li {
     display: inline-block;
     margin-right: 10px;
 }
-#team ul li button{
+
+#team ul li button {
     font-size: 0;
     width: 20px;
     height: 8px;
     border: 1px solid #7857FE;
 }
-#team .slick-dots .slick-active button{
+
+#team .slick-dots .slick-active button {
     background: #7857FE;
 
 }
+
 /* =====================================
         Team Part end
 ======================================== */
 /* =====================================
         Question Part end
 ======================================== */
-#question{
+#question {
     padding: 30px 0;
 }
+
 #question .questions {
     width: 730px;
     margin: 0 auto;
 }
-#question .questions .active{
+
+#question .questions .active {
     background: #F8F8F8;
 }
+
 #question .questions .active .q-item {
     background: #7857FC;
     color: #fff;
 }
-#question .questions .q-item{
+
+#question .questions .q-item {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #222222;
     position: relative;
 }
-#question .questions .q-item i{
+
+#question .questions .q-item i {
     font-size: 14px;
     color: #222222;
     position: absolute;
@@ -674,7 +765,8 @@ nav ul li a{
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
 }
-#question .questions .active .q-item i{
+
+#question .questions .active .q-item i {
     transform: translateY(-50%) rotate(0deg);
     -webkit-transform: translateY(-50%) rotate(0deg);
     -moz-transform: translateY(-50%) rotate(0deg);
@@ -682,40 +774,46 @@ nav ul li a{
     -o-transform: translateY(-50%) rotate(0deg);
     color: #fff;
 }
+
 /* =====================================
         Question Part end
 ======================================== */
 /* =====================================
         Touch Part end
 ======================================== */
-#touch{
+#touch {
     padding: 30px 0;
     background: #F8F8F8;
 }
-#touch h3{
+
+#touch h3 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
     font-size: 18px;
     color: #383838;
 }
-#touch ul{
+
+#touch ul {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
-#touch ul li h4{
-    font-family: 'Libre Baskerville', serif;
+
+#touch ul li h4 {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #616161;
 }
-#touch ul li p{
+
+#touch ul li p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #7a7a7a;
 }
-#touch ul li i{
+
+#touch ul li i {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -729,6 +827,61 @@ nav ul li a{
     -o-border-radius: 50%;
     margin-right: 15px;
 }
+#touch button{
+    border: 0;
+    background: #7857FC;
+    color: #fff;
+    padding: 15px;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /* =====================================
         Touch Part end
+======================================== */
+/* =====================================
+        Footer Part end
+======================================== */
+footer {
+   padding-top: 30px;
+    background: rgb(120, 87, 254);
+    background: linear-gradient(0deg, rgb(120 87 254 / 100%) 0%, rgb(120 87 254 / 100%) 100%);
+}
+footer h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+footer ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+footer .bottom{
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #979797;
+    margin-top: 20px;
+}
+footer .bottom span{
+    color: #b5d4ff;
+}
+/* =====================================
+        Footer Part end
 ======================================== */
