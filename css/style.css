@@ -409,3 +409,326 @@ nav ul li a{
 /* =====================================
         Works Part end
 ======================================== */
+/* =====================================
+        Clint Part start
+======================================== */
+#clint-part{
+    padding: 30px 0;
+    background: #F8F8F8;
+}
+#clint-part .card{
+    background: #F8F8F8;
+    padding: 30px 10px;
+    text-align: center;
+    margin: 1px 15px;
+}
+#clint-part .card .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 0  auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clint-part .card .img img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #7857FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#clint-part .card .img .img-overlay{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    background: #7857FE;
+    transform: translate(50%,-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translate(50%,-50%);
+    -moz-transform: translate(50%,-50%);
+    -ms-transform: translate(50%,-50%);
+    -o-transform: translate(50%,-50%);
+}
+#clint-part .card .img .img-overlay i{
+    font-size: 12px;
+    color: #fff;
+}
+#clint-part .card  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#clint-part .card h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #383838;
+}
+#clint-part .card h4{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#clint-part .card .icon i{
+    color: #ffcf42;
+}
+#clint-part .client-slider ul{
+    text-align: center;
+    margin-top: 15px;
+}
+#clint-part .client-slider ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#clint-part .client-slider ul li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #7857FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+#clint-part .client-slider .slick-dots .slick-active button{
+    background: #7857FE;
+}
+/* =====================================
+        Clint Part end
+======================================== */
+/* =====================================
+        Price Part start
+======================================== */
+#price{
+    padding: 30px 0;
+}
+#price .card{
+    text-align: center;
+    padding: 30px 10px;
+}
+#price .card h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 20px;
+}
+#price .card h4{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+#price .card span{
+    color: #7857FE;
+    font-size: 40px;
+}
+#price .card ul{
+  text-align: left;
+  margin: 15px 0;
+}
+#price .card ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    margin-bottom: 10px;
+}
+#price .card ul li i{
+    font-size: 14px;
+    color: #7857FE;
+    margin-right: 10px;
+}
+
+#price .card  a{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #7857FE;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+    padding: 10px 15px;
+}
+/* =====================================
+        Price Part end
+======================================== */
+/* =====================================
+        Team Part start
+======================================== */
+#team{
+    padding: 30px 0;
+    background: #F8F8F8;
+}
+#team .card{
+    padding: 15px;
+    margin: 1px 15px;
+}
+#team .card .img img{
+    width: 100%;
+}
+#team .card h3 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #383838;
+    margin-top: 10px;
+}
+#team .card h4{
+    font-family: 'Libre Baskerville', serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #7a7a7a;
+        margin-bottom: 15px;
+        margin-top: 10px;
+}
+#team ul{
+    text-align: center;
+    margin-top: 15px;
+}
+#team ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#team ul li button{
+    font-size: 0;
+    width: 20px;
+    height: 8px;
+    border: 1px solid #7857FE;
+}
+#team .slick-dots .slick-active button{
+    background: #7857FE;
+
+}
+/* =====================================
+        Team Part end
+======================================== */
+/* =====================================
+        Question Part end
+======================================== */
+#question{
+    padding: 30px 0;
+}
+#question .questions {
+    width: 730px;
+    margin: 0 auto;
+}
+#question .questions .active{
+    background: #F8F8F8;
+}
+#question .questions .active .q-item {
+    background: #7857FC;
+    color: #fff;
+}
+#question .questions .q-item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #222222;
+    position: relative;
+}
+#question .questions .q-item i{
+    font-size: 14px;
+    color: #222222;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) rotate(180deg);
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#question .questions .active .q-item i{
+    transform: translateY(-50%) rotate(0deg);
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    -moz-transform: translateY(-50%) rotate(0deg);
+    -ms-transform: translateY(-50%) rotate(0deg);
+    -o-transform: translateY(-50%) rotate(0deg);
+    color: #fff;
+}
+/* =====================================
+        Question Part end
+======================================== */
+/* =====================================
+        Touch Part end
+======================================== */
+#touch{
+    padding: 30px 0;
+    background: #F8F8F8;
+}
+#touch h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #383838;
+}
+#touch ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#touch ul li h4{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #616161;
+}
+#touch ul li p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+#touch ul li i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #7857FE;
+    border: 1px solid #7857FE;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+}
+/* =====================================
+        Touch Part end
+======================================== */
